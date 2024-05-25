@@ -3,7 +3,7 @@ import { navMenu } from '../../conts/menuItems'
 
 const MobileNav = ({ isTogle }) => {
    return (
-      <div className={`${isTogle ? "flex" : "hidden"} fixed z-50 top-16 left-0  my-2 min-w-full  sidebar shadow-md`}>
+      <div className={`${isTogle ? "flex" : "hidden"} px-3  fixed z-50 top-16 left-0  my-2 min-w-full shadow-md  sidebar bg-white`}>
          {isTogle ? (
             <div className='w-full  relative flex justify-start bg-black-gradient p-6 rounded-xl '>
                <ul className="mt-[-6px]">
@@ -11,7 +11,7 @@ const MobileNav = ({ isTogle }) => {
                      return (
                         <li
                            key={i}
-                           className="mb-3 font-semibold"
+                           className="mb-3 font-semibold cursor-pointer"
                         >
                            <a href={`#${item.path}`}>
                               {item.menu}
@@ -21,9 +21,7 @@ const MobileNav = ({ isTogle }) => {
                   })}
                </ul>
             </div>
-         ) : (
-            ""
-         )}
+         ) : ("")}
       </div>
    )
 }
