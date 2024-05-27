@@ -6,7 +6,7 @@ const CardHero = () => {
    return (
       <div className="relative shadow-md bg-white h-72 flex flex-col items-center rounded-md">
          <div className="">
-            <img src={gurame} alt="" className=' shadow-md rounded-full' />
+            <img src={gurame} alt="" className='  rounded-full' />
          </div>
          <p className='font-semibold'>Gurame</p>
          <p>Rp.12.000</p>

@@ -1,11 +1,10 @@
 import React from 'react'
-import { logo } from '../../assets'
 import CardHero from './CardHero'
 import Button from './Button'
 
 const Hero = () => {
    return (
-      <div className='h-[100vh] w-full mt-10 md:flex md:justify-between md:gap-10'>
+      <div className=' w-full mt-10 md:flex md:justify-between md:gap-10'>
          <div className='w-full flex flex-col justify-center'>
             <div className="mb-2">
                <h1 className='text-5xl font-bold'>Ayam Bakar</h1>
@@ -25,7 +24,7 @@ const Hero = () => {
             <CardHero />
             <CardHero />
          </div>
-         <div className="md:hidden">
+         <div className="w-full flex justify-between md:hidden ">
             <Button />
          </div>
       </div>
