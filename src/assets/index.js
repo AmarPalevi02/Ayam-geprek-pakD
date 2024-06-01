@@ -7,6 +7,7 @@ import grabFood from './grabfood.png'
 import rujak from './rujak.png'
 import ampela from './ampela.png'
 import ayamKotak from './ayam-kotak.png'
+import abstrak from './Abstract.png'
 
 export {
    logo,
@@ -14,8 +15,9 @@ export {
    bebek,
    dadargeprek,
    gurame,
-   grabFood, 
+   grabFood,
    rujak,
    ampela,
-   ayamKotak
+   ayamKotak,
+   abstrak
 }

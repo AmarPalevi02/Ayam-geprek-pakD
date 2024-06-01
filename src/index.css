@@ -16,3 +16,19 @@ body {
    -webkit-backdrop-filter: blur(7.4px);
    border: 1px solid rgba(255, 255, 255, 0.08);
 }
+
+
+.fixed-size-image {
+   width: 100px; /* Ubah ukuran sesuai kebutuhan Anda */
+   height: 100px; /* Ubah ukuran sesuai kebutuhan Anda */
+   object-fit: cover; /* Agar gambar menyesuaikan ke dalam ukuran tetap */
+}
+
+.image-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px; /* Ubah ukuran sesuai kebutuhan Anda */
+}
+
+
